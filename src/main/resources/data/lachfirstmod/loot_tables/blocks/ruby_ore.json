@@ -11,11 +11,11 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "lachfirstmod:ruby_block"
+            "name": "lachfirstmod:uncut_ruby"
           }
         ],
         "rolls": 1.0
       }
     ],
-    "random_sequence": "lachfirstmod:ruby_block"
+    "random_sequence": "lachfirstmod:ruby_ore"
   }
