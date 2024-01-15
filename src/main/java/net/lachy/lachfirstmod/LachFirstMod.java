@@ -1,6 +1,10 @@
 package net.lachy.lachfirstmod;
 
 import com.mojang.logging.LogUtils;
+
+import net.lachy.lachfirstmod.block.ModBlocks;
+import net.lachy.lachfirstmod.item.ModCreativeModeTabs;
+import net.lachy.lachfirstmod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
@@ -42,6 +46,11 @@ public class LachFirstMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -64,7 +73,10 @@ public class LachFirstMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.RUBY);
+            event.accept(ModItems.UNCUT_RUBY);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
