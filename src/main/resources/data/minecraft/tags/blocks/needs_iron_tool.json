@@ -1,6 +1,8 @@
 {
     "values": [
         "lachfirstmod:ruby_block",
-        "lachfirstmod:ruby_ore"
+        "lachfirstmod:ruby_ore",
+        "lachfirstmod:nether_ruby_ore",
+        "lachfirstmod:deepslate_ruby_ore"
     ]
 }

@@ -1,7 +1,19 @@
 {
     "item.lachfirstmod.ruby": "Ruby",
     "item.lachfirstmod.uncut_ruby": "Uncut Ruby",
+    "item.lachfirstmod.ruby_clump": "Ruby Clump",
+    "item.lachfirstmod.rock_candy": "Rock Candy",
+    "item.lachfirstmod.ruby_sword": "Ruby Sword",
+    "item.lachfirstmod.ruby_shovel": "Ruby Shovel",
+    "item.lachfirstmod.ruby_pickaxe": "Ruby Pickaxe",
+
+
+
     "block.lachfirstmod.ruby_block": "Block of Ruby",
     "block.lachfirstmod.ruby_ore": "Ruby Ore",
+    "block.lachfirstmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+    "block.lachfirstmod.nether_ruby_ore": "Nether Ruby Ore",
+
+
     "creativetab.lach_tab": "Lachlan's Mod"
 }

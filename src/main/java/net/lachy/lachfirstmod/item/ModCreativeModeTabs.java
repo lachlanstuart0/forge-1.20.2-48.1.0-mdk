@@ -20,8 +20,13 @@ public class ModCreativeModeTabs {
         .displayItems((pParameters, pOutput) -> {
             pOutput.accept(ModItems.RUBY.get());
             pOutput.accept(ModItems.UNCUT_RUBY.get());
+            pOutput.accept(ModItems.RUBY_CLUMP.get());
+            pOutput.accept(ModItems.ROCK_CANDY.get());
             pOutput.accept(ModBlocks.RUBY_BLOCK.get());
             pOutput.accept(ModBlocks.RUBY_ORE.get());
+            pOutput.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
+            pOutput.accept(ModBlocks.NETHER_RUBY_ORE.get());
+            
         })
         .build());
 

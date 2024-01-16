@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern" :[
+        " # ",
+        "#S#",
+        "S# "
+    ],
+    "key":{
+        "#":{
+            "item": "lachfirstmod:ruby_clump"
+        },
+        "S":{
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "lachfirstmod:rock_candy"
+    }
+}
